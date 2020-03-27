@@ -9,11 +9,11 @@ function App() {
   return (
     <div className="App">
       <AutoplaySlider
-      bullets = {false}
+        bullets={false}
         play={true}
         cancelOnInteraction={false} // should stop playing on user interaction
         interval={5000}
-        style={{height: '100vh'}}
+        style={{ height: '100vh' }}
       >
         <img data-src="/assets/1.jpg" alt="Cayci 1" />
         <img data-src="/assets/2.jpg" alt="Caycl 2" />
@@ -26,6 +26,20 @@ function App() {
         <img data-src="/assets/9.jpg" alt="Caycl 9" />
         <img data-src="/assets/10.jpg" alt="Caycl 10" />
       </AutoplaySlider>
+      <ul className="app__social">
+        <a href="https://www.facebook.com/akbarteaazerbaijan/" rel="noopener noreferrer" target="_blank">
+          <img className="app__social-icons" src="/assets/fb.svg" alt="facebook icon" />
+        </a>
+        <a href="https://www.instagram.com/akbarteaaze/" rel="noopener noreferrer" target="_blank">
+          <img className="app__social-icons" src="/assets/insta.svg" alt="instagram icon" />
+        </a>
+        <a href="https://vm.tiktok.com/GNn2mp/" rel="noopener noreferrer" target="_blank">
+          <img className="app__social-icons" src="/assets/tiktalk.svg" alt="tiktalk icon" />
+        </a>
+        <a href="https://www.youtube.com/channel/UCpRSrnSDTNEKQxa3xcnGfAg" rel="noopener noreferrer" target="_blank">
+          <img className="app__social-icons" src="/assets/youtube.svg" alt="youtube icon" />
+        </a>
+      </ul>
     </div>
   );
 }

@@ -7,3 +7,23 @@ body{
   height: 100%;
 }
 
+.app__social{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 15px;
+  left: calc(50% - 86px);
+  z-index: 999;
+  display: flex;
+  justify-content: space-evenly;
+  width: 172px;
+}
+
+a{
+  height: 35px;
+}
+
+.app__social-icons{
+  height: 35px;
+  pointer-events: none;
+}
